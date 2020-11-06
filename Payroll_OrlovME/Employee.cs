@@ -40,6 +40,7 @@ namespace Payroll_OrlovME
             builder.Append(" через: ").Append(Method);
             builder.Append("принадлежит к ").Append(Affiliation);
             return builder.ToString();
+
         }
     }
 }
